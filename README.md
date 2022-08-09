@@ -26,5 +26,14 @@ Our subnet:
 
 ### Example implementation:
 (This is what we should achieve)
+
 ![image](https://user-images.githubusercontent.com/80109984/183689809-f2972381-1665-4ae4-84f0-37fff7a7cc9a.png)
 
+
+### Implementation steps (in Packet Tracer):
+
+1. Configure interface IP addresses.
+2. Configure OSPF on the routers for redundancy.
+3. Create VLANS: 2,3,4,5 on the Layer 2 & 3 switches and configure routing on a stick.
+4. Configure HSRP this will make sure one Layer 3 switch is on standby in case the other one fails.
+5. Configure ACL's for security. In this case I allowed HTTP traffic that is send within the network but force HTTPS for outside traffic. 
