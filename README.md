@@ -1,4 +1,4 @@
-﻿# Campus-network
+# Campus-network
 
 In this repo I will explain how we can build a campus network design and also how to implement it.
 
@@ -37,3 +37,6 @@ Our subnet:
 3. Create VLANS: 2,3,4,5 on the Layer 2 & 3 switches and configure routing on a stick.
 4. Configure HSRP this will make sure one Layer 3 switch is on standby in case the other one fails.
 5. Configure ACL's for security. In this case I allowed HTTP traffic that is send within the network but force HTTPS for outside traffic. 
+
+### Download my solution here: 
+<a href="campus_network.pkt" download>Click to Download</a>
