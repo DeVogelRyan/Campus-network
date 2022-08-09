@@ -38,5 +38,4 @@ Our subnet:
 4. Configure HSRP this will make sure one Layer 3 switch is on standby in case the other one fails.
 5. Configure ACL's for security. In this case I allowed HTTP traffic that is send within the network but force HTTPS for outside traffic. 
 
-### Download my solution here: 
-<a href="campus_network.pkt" download>Click to Download</a>
+### Download my solution <a href="campus_network.pkt" download>here</a>.
